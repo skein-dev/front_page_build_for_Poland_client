@@ -37,6 +37,19 @@
   outline-style: none;
   border: none;
 }
+.btn_price {
+  padding: 15px 60px;
+  background-color: #f36431;
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px rgb(0 0 0 / 30%);
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  transition: 0.2s;
+  outline-style: none;
+  border: none;
+  margin: 20px 0;
+}
 
 .product-cate-section {
   padding-bottom: 50px;
@@ -78,18 +91,109 @@
 .all_cards {
   margin-top: 25px;
 }
-.price_card {
-  border: 1px solid black;
-}
-.price_notify {
-  /* display: none; */
-}
-.price_card:hover {
-  display: block;
-}
-.cratis-content{
-  text-align: center;
-}
-.btn_cratis{
+.btn_cratis {
   margin: 50px 0;
+}
+.attribute-part {
+  position: absolute;
+  text-align: center;
+  top: 295px;
+}
+.attribute-title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 36px;
+}
+.attribute-detail {
+  font-size: 18px;
+  color: #ffffff;
+}
+.price_cards {
+  position: absolute;
+  top: 500px;
+}
+.klanten-mat-section {
+  margin-top: 200px;
+}
+
+.price_card {
+  background-color: #f6f6f6;
+  border: 1px solid #dddcdc;
+  padding-bottom: 50px;
+}
+.price_header {
+  margin-top: 20px;
+}
+.price_title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+.price_detail {
+  font-size: 14px;
+  color: #969696;
+  width: 45%;
+  margin: 0 auto;
+  line-height: 20px;
+}
+.price_check_list {
+  width: 80%;
+  margin: 0 auto;
+}
+.price_check_list ul {
+  list-style-image: url("../images/home/icons/green-check-1.png");
+  font-size: 16px;
+  font-weight: medium;
+}
+.price_check_list ul li {
+  margin-top: 20px;
+  color: #3d3d3d;
+}
+.price_footer {
+  color: #969696;
+  font-size: 14px;
+}
+.sale-mark {
+  margin-top: -2px;
+  position: relative;
+}
+.sale-mark p {
+  top: 20%;
+  left: 27.5%;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+}
+.price_per {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  color: #ffffff;
+  border-radius: 50%;
+  position: relative;
+  background-color: #0084d0;
+}
+.old_price {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.red_line {
+  border: 1px solid red;
+  width: 35%;
+  top: 30%;
+  left: 25%;
+  position: absolute;
+  transform: skew(10deg, -15deg);
+}
+.now {
+  font-size: 10px;
+}
+.now_price {
+  font-size: 18px;
+}
+.card_two {
+  margin-top: -40px;
 }

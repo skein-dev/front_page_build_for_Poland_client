@@ -6,7 +6,7 @@
   top: 10%;
   text-align: center;
 } */
-.attibute-icon img {
+.attibute-icon {
   text-align: center;
 }
 .attibute-title {
@@ -26,6 +26,7 @@
 .feedback_card {
   border: 1px solid #dddcdc;
   box-shadow: 2px ​2px 10px grey;
+  background-color: #ffffff;
 }
 .avatar {
   padding: 0;
@@ -75,83 +76,87 @@
   border: none;
 }
 
-.image-section{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid #999;
-    margin: 0 0 20px 0;
-    background-color: #fff;
+.image-section {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #999;
+  margin: 0 0 20px 0;
+  background-color: #fff;
 }
-.image-section img{
-    width: 50%;
-    min-width: 270px;
+.image-section img {
+  width: 50%;
+  min-width: 270px;
 }
-.image-section .image-section-detail{
-    padding: 55px 20px;
+.image-section .image-section-detail {
+  padding: 55px 20px;
 }
-.image-section .image-section-detail p{
-    color: #999;
+.image-section .image-section-detail p {
+  color: #999;
 }
-.image-section .image-section-detail h4{
-    padding: 40px 0;
+.image-section .image-section-detail h4 {
+  padding: 40px 0;
 }
-.product-section{
+.product-section {
 }
-.product-section img{
-    width: 100%;
+.product-section img {
+  width: 100%;
 }
 
-.beki-section p{
+.beki-section p {
   color: #999;
   margin: 30px 0;
 }
-.beki-section h3{
+.beki-section h3 {
   margin: 50px 0;
 }
-.beki-section .btn_cratis{
+.beki-section .btn_cratis {
   margin: 30px 0 100px 0;
 }
-.attribute-part{
+.attribute-part {
   position: absolute;
-  top: 25%;
+  top: 300px;
   color: white;
 }
-.img-header-section{
-    margin-top: -15%;
+.img-header-section {
+  margin-top: -15%;
 }
-.carousel-indicators{
+.carousel-indicators {
   display: none;
 }
-.gift-section{
+.gift-section {
   display: flex;
   justify-content: space-between;
   margin-top: -250px;
 }
 @media screen and (max-width: 1024px) {
-  .gift-section{
+  .gift-section {
     display: none;
   }
 }
 @media screen and (max-width: 767px) {
-  .attribute-part{
+  .attribute-part {
     top: 10%;
   }
-  .attribute-part .attibute-title{
+  .attribute-part .attibute-title {
     font-size: 28px;
     line-height: 17px;
   }
-  .attibute-detail{
+  .attibute-detail {
     font-size: 14px;
     line-height: 15px;
   }
-  .img-header-section{
+  .img-header-section {
     margin-top: 0;
     max-height: 350px;
   }
-  .carousel-inner{
+  .carousel-inner {
     margin-bottom: 50px;
   }
-  .carousel-control, .carousel-control{
+  .carousel-control,
+  .carousel-control {
     z-index: 1000;
   }
+}
+.review_cards {
+  margin-top: 20px;
 }

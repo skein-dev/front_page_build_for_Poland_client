@@ -1,0 +1,6 @@
+.product-cate-section .product-cate-item {
+  display: block !important;
+}
+.product-cate-section .product-cate-item img {
+    text-align: center;
+}
